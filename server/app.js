@@ -29,7 +29,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(require('express-session')({
-    secret: 'myphotoapp key',
+    secret: 'keyboard cat',
     resave: false,
     saveUninitialized: false
 }));
